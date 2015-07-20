@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+canvas {
+	width: 100%;
+	height: 100%;
+}
+
+input[type=range][orient=vertical] {
+	position: absolute;
+	top: 5%;
+	bottom: 0;
+	writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical; /* WebKit */
+  width: 25px;
+	height: 90%;
+}
+
+input[type=range][orient=vertical] {
+	outline: none;
+}
+
+#red {
+	left: 70%;
+}
+
+#green {
+	left: 80%;
+}
+
+#blue {
+	left: 90%;
+}
+
+#values {
+	position: absolute;
+	height: 40%;
+	width: 70%;
+	bottom: 0;
+	left: 0;
+}
+
+.value {
+	position: absolute;
+	text-align: center;
+	height: 50%;
+	width: 100%;
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+#hex {
+	padding-top: 80px;
+}
+
+@media all and (max-width: 340px) {
+  .value {
+    font-size: large;
+  }
