@@ -1,7 +1,7 @@
 function rgbToHex(red, green, blue) {
-  return "#" + dec2hex(red) 
-				 		 + dec2hex(green)
-				 		 + dec2hex(blue);
+  return "#" + dec2hex(parseInt(red)) 
+				 		 + dec2hex(parseInt(green))
+				 		 + dec2hex(parseInt(blue));
 }
 
 function complementaryHexColor(hex) {
