@@ -1,12 +1,7 @@
-function componentToHex(color) {
-  var hex = color.toString(16);
-  return hex.length == 1 ? "0" + hex : hex;
-}
-
 function rgbToHex(red, green, blue) {
-  return "#" + componentToHex(red) 
-				 		 + componentToHex(green)
-				 		 + componentToHex(blue);
+  return "#" + dec2hex(red) 
+				 		 + dec2hex(green)
+				 		 + dec2hex(blue);
 }
 
 function complementaryHexColor(hex) {
