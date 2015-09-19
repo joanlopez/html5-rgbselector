@@ -1,67 +1,83 @@
 * {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-html, body {
-	width: 100%;
-	height: 100%;
+
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
+
 
 canvas {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-input[type=range][orient=vertical] {
-	position: absolute;
-	top: 5%;
-	bottom: 0;
-	writing-mode: bt-lr; /* IE */
-  -webkit-appearance: slider-vertical; /* WebKit */
-  width: 25px;
-	height: 90%;
-}
 
 input[type=range][orient=vertical] {
-	outline: none;
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    width: 25px;
+    height: 90%;
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
 }
+
+
+input[type=range][orient=vertical] {
+    outline: none;
+}
+
 
 #red {
-	left: 70%;
+    left: 70%;
 }
+
 
 #green {
-	left: 80%;
+    left: 80%;
 }
+
 
 #blue {
-	left: 90%;
+    left: 90%;
 }
+
 
 #values {
-	position: absolute;
-	height: 40%;
-	width: 70%;
-	bottom: 0;
-	left: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40%;
+    width: 70%;
 }
+
 
 .value {
-	position: absolute;
-	text-align: center;
-	height: 50%;
-	width: 100%;
-	font-size: x-large;
-	font-weight: bolder;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
 }
+
 
 #hex {
-	padding-top: 80px;
+    padding-top: 80px;
 }
 
+
+
+
+
 @media all and (max-width: 340px) {
-  .value {
-    font-size: large;
-  }
+    .value {
+        font-size: large;
+    }
+}
