@@ -1,27 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<title>RGB Selector</title>
-<link rel="stylesheet" href="css/style.css">
-<script src="lib/jquery-1.11.3.min.js"></script>
-<script src="js/helpers.js"></script>
-<script src="js/main.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>RGB Selector</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
-	<canvas id="canvas"></canvas>
-	<input id="red" type="range" orient="vertical" min="0" max="255" step="1" />
-	<input id="green" type="range" orient="vertical" min="0" max="255" step="1" />
-	<input id="blue" type="range" orient="vertical" min="0" max="255" step="1" />
-	<div id="values">
-		<p id="rgb" class="value"/>
-		<p id="hex" class="value"/>
-	</div>
+    <body>
+    	<canvas id="canvas"></canvas>
 
-</body>
+    	<input id="red" type="range" orient="vertical" min="0" max="255" step="1">
+    	<input id="green" type="range" orient="vertical" min="0" max="255" step="1">
+    	<input id="blue" type="range" orient="vertical" min="0" max="255" step="1">
+    	<div id="values">
+    		<p id="rgb" class="value"></p>
+    		<p id="hex" class="value"></p>
+    	</div>
 
+        <script src="lib/jquery-1.11.3.min.js"></script>
+        <script src="js/helpers.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
